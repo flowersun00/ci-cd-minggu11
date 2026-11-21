@@ -14,8 +14,8 @@ jobs:
       - name: Pasang Python
         uses: actions/setup-python@v6
         with:
-        python-version: "3.12"
-- name: Pasang pytest
+          python-version: "3.12"
+      - name: Pasang pytest
         run: pip install pytest
       - name: Jalankan tes
         run: pytest -v
